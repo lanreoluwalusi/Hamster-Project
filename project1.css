@@ -1,0 +1,365 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+
+.wrapper_div{
+    height: 500vh;
+}
+
+.searchandshop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    background-color: #008900;
+    height: 50px;
+}
+
+.only {
+    display: none;
+}
+
+.first_banner {
+    position: absolute;
+    right: 5%;
+}
+
+#magnifying_glass, #shopping_cart{
+    color: white;
+    font-size: 25px;
+}
+
+
+#magnifying_glass:hover{
+    color: yellow;
+}
+
+#shopping_cart:hover{
+    color: yellow;
+}
+
+#magnifying_glass{
+    margin-right: 20px;
+}
+
+
+.banner_intro{
+    background-color:#00a900;
+    height:  110px;
+}
+
+.banner_national{
+    height: 70px;
+    margin-bottom: 0px;
+    
+}
+
+
+.hamsterpic{
+    width: 100%;
+}
+
+.first_banner {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+.firsttext{
+    /* background-color: black; */
+    margin-top: 20px;
+    
+}
+
+#firstcaption{
+
+    font-family: GeoEditRegular,Franklin Gothic Medium,Franklin Gothic,ITC Franklin Gothic,Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: .1px;
+    padding: 0px 12px;
+    color: #000;
+    line-height: 1.5;
+    margin-bottom: 5px;
+
+}
+
+#followingtext{
+    color: #555;
+    font-family: GeoBrandRegular,CenturyGothic,AppleGothic,Gill Sans,Gill Sans MT,sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    padding: 0px 12px;
+    
+}
+
+.header{
+    font-family: GeoEditBold,Franklin Gothic Medium,Franklin Gothic,ITC Franklin Gothic,Helvetica,Arial,sans-serif;
+    color: #000;
+    font-weight: 600;
+    font-size: 28px;
+    margin-left: 12px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+#first_paragraph{
+    margin-top: 25px;
+    font-family: GeoEditRegular,Franklin Gothic Medium,Franklin Gothic,ITC Franklin Gothic,Helvetica,Arial,sans-serif;
+    margin-left: 12px;
+    font-size: 19px;
+    font-weight: 300;
+    letter-spacing: .1px;
+    line-height: 1.632;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.second_header{
+    font-family: GeoEditBold,Franklin Gothic Medium,Franklin Gothic,ITC Franklin Gothic,Helvetica,Arial,sans-serif;;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 1.214;
+    margin-left: 12px;
+    margin-bottom: 20px;
+}
+
+#second_paragraph{
+    color: #333;
+    font-family: GeoEditRegular,Franklin Gothic Medium,Franklin Gothic,ITC Franklin Gothic,Helvetica,Arial,sans-serif;
+    font-size: 19px;
+    font-weight: 300;
+    letter-spacing: .1px;
+    line-height: 1.632;
+    margin-left: 12px;
+    
+}
+
+.hamster_holding_food{
+    margin-bottom: 20px;
+}
+
+.hamsterpictwo{
+    width: 100%;
+}
+
+#golden_hamsters{
+    font-family: GeoEditRegular,Franklin Gothic Medium,Franklin Gothic,ITC Franklin Gothic,Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: .1px;
+    line-height: 1.5;
+    margin-bottom: 5px;
+    margin-left: 12px;
+
+}
+
+#photographer{
+    color: #555;
+    font-family: GeoBrandRegular,CenturyGothic,AppleGothic,Gill Sans,Gill Sans MT,sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    margin-left: 12px;
+}
+
+#third_paragraph{
+    color: #333;
+    font-family: GeoEditRegular,Franklin Gothic Medium,Franklin Gothic,ITC Franklin Gothic,Helvetica,Arial,sans-serif;
+    font-size: 19px;
+    font-weight: 300;
+    letter-spacing: .1px;
+    line-height: 1.632;
+    margin-bottom: 20px;
+    margin-left: 12px;
+}
+
+.third_header{
+    font-family: GeoEditBold,Franklin Gothic Medium,Franklin Gothic,ITC Franklin Gothic,Helvetica,Arial,sans-serif;;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 1.214;
+    margin-left: 12px;
+    margin-bottom: 20px;
+}
+
+#fourth_paragraph{
+    color: #333;
+    font-family: GeoEditRegular,Franklin Gothic Medium,Franklin Gothic,ITC Franklin Gothic,Helvetica,Arial,sans-serif;
+    font-size: 19px;
+    font-weight: 300;
+    letter-spacing: .1px;
+    line-height: 1.632;
+    margin-bottom: 20px;
+    margin-left: 12px;
+}
+
+#fifth_paragraph{
+    color: #333;
+    font-family: GeoEditRegular,Franklin Gothic Medium,Franklin Gothic,ITC Franklin Gothic,Helvetica,Arial,sans-serif;
+    font-size: 19px;
+    font-weight: 300;
+    letter-spacing: .1px;
+    line-height: 1.632;
+    margin-bottom: 20px;
+    margin-left: 12px;
+}
+
+.OUTRO{
+    margin-top: 100px;
+}
+
+.national_geographic{
+    display: flex;
+    height: 100px;
+}
+
+.nat_geo_logo{
+    height: 40px;
+    padding-right: 320px;
+    padding-top: 30px;
+}
+
+ul{
+    list-style: none;
+}
+
+.legal_and_our_sites{
+    display: flex;
+}
+
+.LEGAL_LIST{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    /* background-color: #555; */
+    width: 200px;
+}
+
+.list_header_one{
+    color: #000;
+    font-size: 18px;
+    font-family: GeoBrandBlack,CenturyGothic,AppleGothic,Gill Sans,Gill Sans MT,sans-serif;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.legal_list_items{
+    font-family: GeoBrandRegular,CenturyGothic,AppleGothic,Gill Sans,Gill Sans MT,sans-serif;
+    font-size: 12px;
+    line-height: 1.3;
+    margin-bottom: 10px;
+}
+
+.legal_link{
+    color: #000;
+    text-decoration: none;
+}
+
+
+.our_sites_list{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    /* background-color: #333; */
+    width: 200px;
+}
+
+.list_header_two{
+    color: #000;
+    font-size: 18px;
+    font-family: GeoBrandBlack,CenturyGothic,AppleGothic,Gill Sans,Gill Sans MT,sans-serif;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.our_sites_list_items{
+    font-family: GeoBrandRegular,CenturyGothic,AppleGothic,Gill Sans,Gill Sans MT,sans-serif;
+    font-size: 12px;
+    line-height: 1.3;
+    margin-bottom: 10px;
+}
+
+.our_sites_link{
+    color: #000;
+    text-decoration: none;
+}
+
+.join_us_list{
+    margin-top: 30px;
+    margin-bottom: 150px;
+    margin-left: 20px;
+    /* background-color: #333; */
+    width: 200px;
+}
+
+.list_header_three{
+    color: #000;
+    font-size: 18px;
+    font-family: GeoBrandBlack,CenturyGothic,AppleGothic,Gill Sans,Gill Sans MT,sans-serif;
+    font-weight: 400;
+    margin-bottom: 20px;
+
+}
+
+.join_us_list_items{
+    font-family: GeoBrandRegular,CenturyGothic,AppleGothic,Gill Sans,Gill Sans MT,sans-serif;
+    font-size: 12px;
+    line-height: 1.3;
+    margin-bottom: 10px;
+}
+
+.join_us_link{
+    color: #000;
+    text-decoration: none;
+}
+
+#first_copyright{
+    font-family: GeoEditRegular,Franklin Gothic Medium,Franklin Gothic,ITC Franklin Gothic,Helvetica,Arial,sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #999;
+    letter-spacing: .2px;
+    line-height: 1.25;
+    margin-bottom: 10px;
+    margin-left: 12px;
+}
+
+#second_copyright{
+    font-family: GeoEditRegular,Franklin Gothic Medium,Franklin Gothic,ITC Franklin Gothic,Helvetica,Arial,sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #999;
+    letter-spacing: .2px;
+    line-height: 1.25;
+    margin-left: 12px;
+}
+
+
+@media screen  and (min-width: 1024px) {
+    .wrapper_div {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        background-color: aliceblue;
+        height: 500vh;
+    }
+
+    .homepage{
+        width: 100%;
+        
+    }
+
+    .only {
+        display: block;
+    }
+
+}
+
