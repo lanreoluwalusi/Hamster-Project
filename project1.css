@@ -4,7 +4,7 @@
 }
 
 .wrapper_div{
-    height: 500vh;
+    height: 470vh;
 }
 
 .searchandshop{
@@ -17,6 +17,16 @@
     height: 50px;
 }
 
+.first_bar_icons{
+    background-color: #00a900;
+    border-radius: 0px;
+}
+
+.first_bar_icons:hover{
+    cursor: pointer;
+    color: yellow;
+}
+
 .only {
     display: none;
 }
@@ -26,11 +36,12 @@
     right: 5%;
 }
 
+
 #magnifying_glass, #shopping_cart{
     color: white;
     font-size: 25px;
+    margin-right: 20px;
 }
-
 
 #magnifying_glass:hover{
     color: yellow;
@@ -40,10 +51,6 @@
     color: yellow;
 }
 
-#magnifying_glass{
-    margin-right: 20px;
-}
-
 
 .banner_intro{
     background-color:#00a900;
@@ -51,11 +58,26 @@
 }
 
 .banner_national{
-    height: 70px;
+    display: flex;
+    height: 110px;
     margin-bottom: 0px;
+    /* background-color: red; */
     
 }
 
+.nat_geo_kids_logo{
+    height: 60px;
+    padding-right: 320px;
+    padding-top: 30px;
+}
+
+.all_bar_icons{
+    display: none;
+}
+
+.whole_story{
+    width: 100%;
+}
 
 .hamsterpic{
     width: 100%;
@@ -137,6 +159,7 @@
     letter-spacing: .1px;
     line-height: 1.632;
     margin-left: 12px;
+    margin-bottom: 20px;
     
 }
 
@@ -214,6 +237,11 @@
 
 .OUTRO{
     margin-top: 100px;
+}
+
+.end_box{
+    background-color: whitesmoke;
+    height: 80vh;
 }
 
 .national_geographic{
@@ -295,7 +323,7 @@ ul{
 .join_us_list{
     margin-top: 30px;
     margin-bottom: 150px;
-    margin-left: 20px;
+    margin-left: 30px;
     /* background-color: #333; */
     width: 200px;
 }
@@ -330,6 +358,7 @@ ul{
     line-height: 1.25;
     margin-bottom: 10px;
     margin-left: 12px;
+    margin-top: 30px;
 }
 
 #second_copyright{
@@ -344,22 +373,147 @@ ul{
 
 
 @media screen  and (min-width: 1024px) {
-    .wrapper_div {
+    *{
+        margin: 0 auto;
+        padding: 0;
+    }
+
+
+    /* .wrapper_div {
         display: flex;
         flex-direction: row;
         align-items: center;
         background-color: aliceblue;
         height: 500vh;
-    }
+    } */
 
-    .homepage{
+    /* .searchandshop{
+        background-color: red;
+        height: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        width: 100%;
+        /* background-color: #008900;
+    } */ 
+
+    /* .first_banner{
+        background-color: red;
+        width: 200px;
+    } */
+
+    /* .homepage{
         width: 100%;
         
-    }
+    } */
+
+    /* .search_icon{
+        display: flex;
+        flex-direction: row;
+    } */
 
     .only {
         display: block;
     }
 
+    .first_bar_icons:hover{
+        cursor: pointer;
+        color: yellow;
+    }
+
+    .whole_story{
+        width: 50%;
+        padding-top: 20px;
+        padding-right: 200px;
+    }
+
+    .first_banner{
+        background-color: red;
+        width: 200px;
+    }
+
+    .banner_national{
+        /* background-color: red; */
+        display: flex;
+        
+    }
+
+    .nat_geo_kids_logo{
+        height: 70px;
+        /* padding-right: 1120px; */
+        padding-top: 20px;
+    }
+
+    .icons_and_captions{
+        display: flex;
+        /* padding-right: 300px; */
+    }
+
+    .game_and_caption{
+        background-color: red;
+    }
+
+    .all_bar_icons{
+        display: block;
+        font-size: 30px;
+        color: white;
+        background-color: #00a900;
+        /* border-width: 0px; */
+        margin-top: 20px;
+        margin-bottom: 10px;
+        margin-right: 50px;
+    }
+
+    .all_bar_icons:hover{
+        cursor: pointer;
+        color: yellow;
+    }
+
+    #pad_icon{
+        margin-bottom: 10px;
+    }
+
+    .texts_in_banner{
+        font-size: 18px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: 50px;
+    }
+
+    .video_and_caption{
+        background-color: red;
+    }
+
+    #play_icon{
+        margin-bottom: 10px;
+    }
+
+    .animal_and_caption{
+        background-color: red;
+    }
+
+    #paw_icon{
+        margin-bottom: 10px;
+    }
+
+    .explore_and_caption{
+        background-color: red;
+    }
+
+    #crosshairs_icon{
+        margin-bottom: 10px;
+    }
+
+    .subscribe_and_caption{
+        background-color: red;
+    }
+
+    #edit_icon{
+        margin-bottom: 10px;
+    }
+
+
+
 }
+
 
